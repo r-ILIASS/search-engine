@@ -57,12 +57,12 @@ export const Results = () => {
             <div key={id} className='md:w-2/5 w-full'>
               <a href={links?.[0].href} target='_blank' rel='noreferrer' className='hover:inderline'>
                 <p className='text-lg dark:text-blue-300 text-blue-700'>{title}</p>
-                <div className='flax gap-4'>
-                  <a href={source?.href} target="_blank" rel='noreferrer'>
-                    {source?.href}
-                  </a>
-                </div>
               </a>
+              <div className='flex gap-4'>
+                <a href={source?.href} target="_blank" rel='noreferrer'>
+                  {source?.href}
+                </a>
+              </div>
             </div>
           ))}
         </div>
