@@ -29,7 +29,6 @@ export const ResultContextProvider = ({ children }) => {
     } else {
       setResults(data.results);
     }
-    console.log('data is', data);
     setIsLoading(false);
   }
 
