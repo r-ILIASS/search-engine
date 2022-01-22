@@ -1,6 +1,8 @@
 <p align="center">
     <img src="./ReadmeAssets/banner.png" />
-    <img src="https://img.shields.io/badge/Tech--stack%3A-ReactJs%20--%20TailwindCss-blue?style=for-the-badge" />
+</p>
+<p align="center">
+        <img src="https://img.shields.io/badge/Tech--stack%3A-ReactJs%20--%20TailwindCss-blue?style=for-the-badge" />
 </p>
 
 # About
